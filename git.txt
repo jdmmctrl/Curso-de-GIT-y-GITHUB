@@ -1,0 +1,42 @@
+https://git-scm.com
+
+
+--- Instalar ---
+
+winget install --id Git.Git -e --source winget
+
+git --help
+
+--- Configuracion ---
+
+git config --global user.name "nombredeusuario"
+
+git config --global user.email "correo@electronico.com"
+
+
+--- Para iniciar un repocitorio 
+
+git init
+
+--- Crear una nueva rama ---
+
+git branch -m main
+
+--- Para ver el statud del proyecto ---
+
+git status
+
+--- Para adjuntar o guardar cambios ---
+
+git add hellogit.py --- Para guardar archivo especifico ---
+
+git add . --- Para guardar todo ----
+
+
+--- Pasar de local al global o commit ---
+
+git commit -m "Crear un comentario"
+
+
+
+
